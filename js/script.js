@@ -44,21 +44,29 @@ console.log(myTeams);
 for(let team of myTeams){
   console.log(team);
 
-    
+  
+  let outputUser = '';
+  for(let key in myTeams){
+    const outputUs = `${key}: ${myTeams[key]}`;
+    console.log(outputUs);
+    outputUser += outputUs + ' ';
+  }
+
+
   // let listaNomi = '';
   // for(let listaNomi of myTeams[0]){
   //   listaNomi += `${myTeams[0]}`
   // }
 
 
-  // output.innerHTML += `
-  // <div class="card me-5 " style="width: 18rem;">
-  //       <img src="img/${myTeams.img}" alt="...">
-  //       <div class="card-body">
-  //         <h3>${name}</h3>
-  //         <span>${jobs}</span>
-  //       </div>
-  //     </div>
-  // `
+  output.innerHTML += `
+  <div class="card me-5 " style="width: 18rem;">
+        <img src="img/${myTeams.img}" alt="...">
+        <div class="card-body">
+          <h3>${myTeams.name}</h3>
+          <span>${myTeams.jobs}</span>
+        </div>
+      </div>
+  `
 }
   
