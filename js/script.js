@@ -9,31 +9,31 @@ const myTeams = [
   },
 
   {
-    Name : 'Angela Caroll',
+    name : 'Angela Caroll',
     jobs : 'Chief Editor',
     img : 'angela-caroll-chief-editor.jpg'
   },
 
   {
-    Name : 'Walter Gordon',
+    name : 'Walter Gordon',
     jobs : 'Office Manager',
     img : 'walter-gordon-office-manager.jpg'
   },
 
   {
-    Name : 'Angela Lopez',
+    name : 'Angela Lopez',
     jobs : 'Social Media Manager',
     img : 'angela-lopez-social-media-manager.jpg'
   },
 
   {
-    Name : 'Scott Estrada',
+    name : 'Scott Estrada',
     jobs : 'Developer',
     img : 'scott-estrada-developer.jpg'
   },
 
   {
-    Name : 'Barbara Ramos',
+    name : 'Barbara Ramos',
     jobs : 'Graphic Designer',
     img : 'barbara-ramos-graphic-designer.jpg'
   }
