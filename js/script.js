@@ -68,20 +68,22 @@ console.log(myTeams);
 
 // ciclo for of
 // stampo tutte le proprità deggli oggetti dellarry
-for(let myTeam in myTeams){
-  let outputUser = '';
-  for(let key in myTeam){
-    const outputUs = `${key}: ${myTeam[key]}`;
-    console.log(outputUs);
-    outputUser += outputUs + ' ';
-  }
+for(let myTeam of myTeams){
+  console.log(myTeam);
+  // let outputUser = '';
+  // for(let key in myTeam){
+  //   const outputUs = `${key}: ${myTeam[key]}`;
+  //   console.log(outputUs);
+  //   outputUser += outputUs + ' ';
+  //   console.log(key);
+  // }
 
   output.innerHTML += `
   <div class="card me-5 " style="width: 18rem;">
-        <img src="img/${myTeams.img}" alt="...">
+        <img src="img/${myTeam.img}" alt="...">
         <div class="card-body">
-          <h3>${myTeams.name}</h3>
-          <span>${myTeams.jobs}</span>
+          <h3>${myTeam.name}</h3>
+          <span>${myTeam.jobs}</span>
         </div>
       </div>
   `
