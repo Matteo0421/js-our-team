@@ -37,3 +37,7 @@ const myTeams = [
 ]
 
 console.log(myTeams);
+
+for(let team of myTeams){
+  console.log(team);
+}
